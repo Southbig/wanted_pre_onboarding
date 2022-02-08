@@ -1,0 +1,41 @@
+.container {
+  margin: 30px auto;
+  width: 80%;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.name {
+  position: absolute;
+  margin: 10px 0 0 10px;
+  font-weight: 800;
+}
+
+.tab_container {
+  margin: 30px auto;
+  width: 80%;
+  height: 30px;
+  background-color: #ed9e9e;
+  color: rgba(73, 73, 73, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.focuse {
+  background-color: #5e2d2d;
+  color: rgba(255, 255, 255, 1);
+  transition: 600ms;
+  cursor: pointer;
+  padding: 10px 30px;
+}
+
+.text {
+  margin-top: 50px;
+}
+
+.tab:hover {
+  color: black;
+  cursor: pointer;
+}
