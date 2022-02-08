@@ -6,7 +6,7 @@
 
 # Tag
 
-# Autocomlete
+# AutoComplete
 
 # clickToEdit
 
