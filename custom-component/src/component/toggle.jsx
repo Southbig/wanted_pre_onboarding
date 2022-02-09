@@ -9,7 +9,7 @@ const Toggle = () => {
     setisOn(!isOn);
   };
   return (
-    <div className={style.Toggle_container}>
+    <div className={style.toggle_container}>
       <div className={style.name}>Toggle</div>
       <div className={style.toggleContainer}>
         {!isOn ? (

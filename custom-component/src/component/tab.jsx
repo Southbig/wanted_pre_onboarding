@@ -5,10 +5,10 @@ import { useState } from "react";
 const Tab = () => {
   const [currentTab, setCurrentTab] = useState(0);
 
-  const menuArr = [
-    { name: "Tab1", text: "Tab menu ONE" },
-    { name: "Tab2", text: "Tab menu TWO" },
-    { name: "Tab3", text: "Tab menu THREE" },
+  const dummy = [
+    { title: "Tab1", text: "Tab menu ONE" },
+    { title: "Tab2", text: "Tab menu TWO" },
+    { title: "Tab3", text: "Tab menu THREE" },
   ];
 
   const selectMenuHandler = (index) => {
@@ -18,7 +18,7 @@ const Tab = () => {
     <div className={style.container}>
       <div className={style.name}>Tab</div>
       <div className={style.tab_container}>
-        {menuArr.map((el, index) => {
+        {dummy.map((el, index) => {
           return (
             <span
               key={index}
@@ -26,12 +26,12 @@ const Tab = () => {
               className={`${currentTab === index ? style.focuse : style.tab}`}
               onClick={() => selectMenuHandler(index)}
             >
-              {el.name}
+              {el.title}
             </span>
           );
         })}
       </div>
-      <div className={style.text}>{menuArr[currentTab].text}</div>
+      <div className={style.text}>{dummy[currentTab].text}</div>
     </div>
   );
 };
