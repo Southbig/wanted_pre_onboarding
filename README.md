@@ -1,5 +1,5 @@
 # Toggle
-- 구현한 방법과 이유에 대한 간략한 내용
+- 구현한 방법과 이유에 대한 간략한 내용</br>
 상태를 하나두어 클릭시 true, false로 변화를 주고 삼항연산자를 이용해 상태가 true인지 false인지에 따라 on/off 표현
 - 구현하면서 어려웠던 점과 해결 방법 (Error Handling Log)
 하나의 태그에 여러 ClassName을 써서 삼항연산자로 상황에 따른 className표기로 구현하고 싶었지만 PossCss에서는 className을 중복으로 사용하는 법을 아직 찾지 못해서 태그를 일일이 만들어서 구현
